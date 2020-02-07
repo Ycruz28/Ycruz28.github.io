@@ -1,0 +1,26 @@
+---
+layout:"post"
+title:"blog1"
+---
+This week our group made ec2 instances on AWS. Allan found this tool to generate work load on to our system for 
+testing. We made an ec2 instance then connected to the instance and installed stress using the comand sudo apt-get 
+install stress, we used ubuntu. To run it you start off with sudo stress option argument. The command uptime is used 
+to check on the load average. We also used some code in our ec2 instances, 
+Amazon Linux AMI 2018.03.0 (HVM), SSD Volume Type - ami-04bc3da8f14823e88, we used this code in user data, 
+#!/bin/bash
+sudo yum update -y
+sudo yum install -y httpd24 php72 mysql57-server php72-mysqlnd
+sudo service httpd start
+sudo chkconfig httpd on
+sudo usermod -a -G apache ec2-user
+sudo chown -R ec2-user:apache /var/www
+sudo chmod 2775 /var/www
+find /var/www -type d -exec sudo chmod 2775 {} \;
+find /var/www -type f -exec sudo chmod 0664 {} \;
+echo "<?php phpinfo(); ?>" > /var/www/html/phpinfo.php
+it created an apache page and a php page for the instance using the dns. So we just tested different loads on 
+instances. I also made some ec2 instances with the desired requirements made the key pairs, configured the windows 
+instance. Conneted to the instance using the console and assigned a fixed ip address. 
+ for the lab. I also started playiing around with s3 buckets to practice. I
+used one last semester and was interested in learning more. 
+  
