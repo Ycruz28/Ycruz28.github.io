@@ -1,6 +1,6 @@
 ---
-layout:"post"
-title:"blog1"
+layout: "post"
+title: "blog1"
 ---
 This week our group made ec2 instances on AWS. Allan found this tool to generate work load on to our system for 
 testing. We made an ec2 instance then connected to the instance and installed stress using the comand sudo apt-get 
