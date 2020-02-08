@@ -7,7 +7,7 @@ testing. We made an ec2 instance then connected to the instance and installed st
 install stress, we used ubuntu. To run it you start off with sudo stress option argument. The command uptime is used 
 to check on the load average. We also used some code in our ec2 instances, 
 Amazon Linux AMI 2018.03.0 (HVM), SSD Volume Type - ami-04bc3da8f14823e88, we used this code in user data, 
-#!/bin/bash
+--#!/bin/bash
 sudo yum update -y
 sudo yum install -y httpd24 php72 mysql57-server php72-mysqlnd
 sudo service httpd start
