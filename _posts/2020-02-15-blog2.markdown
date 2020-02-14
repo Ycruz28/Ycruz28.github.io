@@ -1,0 +1,35 @@
+---
+layout: "post"
+title: "blog2"
+---
+Creating a s3 bucket 
+1. Sign into your AWS console and then go to services and choose s3 bucket. 
+Create the bucket.
+2.Decide on a name and the region you want for the s3 bucket. 
+3.Next comes the configure options (you can change them after the bucket is created aswell).
+-Versioning
+-Server access logging
+-Tags
+-Object-level logging
+-Default encryption 
+-Object lock
+-CloudWatch request metrics 
+4.Next is setting permissions (again you can it this after the bucket is created).
+5. Last is the review page and Ta-Da we have made a s3 bucket.
+
+Creating an EBS
+1. Sign into you AWS console, go to services and select EC2.
+2. On the navigation plane on the left under Elastic Block Store select Vloumes.
+3. Next click create volume, next you can create a snapshot. 
+4. Last click create and close. 
+
+Setting up an IAM role in AWS. 
+1. Sign into your AWS console, select policies. 
+2. Select create policy, go to the JSON tab and add in your corresponding JSON code. 
+3. Decidee on a name for the policy, you can add in a descrption then select create policy. 
+4. Next in IAM service navigation plane their is a option for roles, select it and click on create role. 
+5. Choose the type of tusted entity, and move onto permissions.
+6. Select your previous created policy, (AviController-EC2-Policy), and (AviController-IAM-Policy) and move onto 
+review. 
+7. Create a name and select Create Role.
+
