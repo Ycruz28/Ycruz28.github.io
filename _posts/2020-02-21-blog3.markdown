@@ -1,6 +1,6 @@
 ---
-layout:"post"
-title:"blog3"
+layout: "post"
+title: "blog3"
 ---
 This week we made a cost anaylsis for EC2 insances using the AWS SIMPLE MONTHLY CALCULATOR. Which is pretty simple 
 to use. 
@@ -10,11 +10,11 @@ to use.
 of instances desired and billing option, it will then calculate your monthly cost.
 -You can also calculate cost for Dedicated Hosts, EBS Volumes, and Elastic Graphics. 
 -There are additional features towards the end of the page.
--- T2/T3 Unlimeted vCPU Hours per month
+~T2/T3 Unlimeted vCPU Hours per month
 +Linux, RHEL, and SLES
 +Windows and Windows with SQL Web
---Elastic IP
---Data Transfer
+~Elastic IP
+~Data Transfer
 
 -The calculator is fairly simple to use and comprehend hence its name Simple Monthly Calulator. 
 You can test various scenarios and decide on your best game plan. To make your infastructure more efficient and cost 
