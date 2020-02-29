@@ -1,18 +1,17 @@
 ---
-layout:"post"
-title:"blog4"
+layout: "post"
+title: "blog4"
 ---
 So this week we worked on a workshop! Creating a ec2 spot fleet. 
 
-<ul>
+
 So first thing first, make sure you are using a AWS account that has admistrator access. 
 *AWS Managment Console Access
 *Uncheck reset, then click next.
 *Now we move onto the tab Attach existing policies directly.
 **Chose Administrator Access, then click next.
-</ul>
 
-<ul>
+
 Next is setting up the architecture
 *Creating a cloudformation stack with the following: (code provided) 
 $ aws cloudformation create-stack --stack-name ec2-spot-fleet-web-app --template-body file://ec2-spot-fleet-web-app.
@@ -23,8 +22,6 @@ yaml --capabilities CAPABILIITY_IAM --region us-east-1
 *Next select both security groups. In Configure Routing section, give your target group a name and leave everything 
 as default. 
 *Move onto review and select create, then close. 
-</ul>
-
 
 Next is setting up the fleet. Under the ec2 service locate spot request, select request spot instance. 
 Leave everything as default, under the network section select the VPC created by your cloudformation stack. Chose 
