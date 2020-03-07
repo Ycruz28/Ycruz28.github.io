@@ -15,26 +15,27 @@ Installing Docker on Windows
 
 4.Now for some Docker commands to try out:
 
-    1.docker run, Runs a command in a new container 
+    docker run, Runs a command in a new container 
 
-    2.docker start, Starts one or more stopped containers 
+    docker start, Starts one or more stopped containers 
 
-    3.docker stop, Stops one or more containers 
+    docker stop, Stops one or more containers 
 
-    4.docker build, Builds an image from a Docker file 
+    docker build, Builds an image from a Docker file 
      
-    5.docker pull, Pulls an image or a repository from a registry 
+    docker pull, Pulls an image or a repository from a registry 
 
-    6.docker push, Pushes an image or a repository to a registry 
+    docker push, Pushes an image or a repository to a registry 
 
-    7.docker export, Exports a container's filesystem as a tar archive
+    docker export, Exports a container's filesystem as a tar archive
 
-    8.docker exec, Runs a command in a runtime container
+    docker exec, Runs a command in a runtime container
 
-    9.docker search, Searches the Docker Hub for images  
+    docker search, Searches the Docker Hub for images  
     
 
-5. Why use Docker??? 
+5. Why use Docker??
+ 
 Docker allows you to replicate  the environment on your server, while running the code locally on your computer.
 Allows for an easy test environment, for development phases. 
 
