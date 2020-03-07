@@ -1,0 +1,39 @@
+---
+layout:"post"
+title:"blog5"
+---
+
+Installing Docker on Windows
+
+1.Download the Docker Desktop Installer.exe, Double click it to run the installer.
+
+ Follow the setup wizard to install Docker.
+
+2.Click on Finish to complete the install and launch Docker.
+
+3.When the whale icon appears in the status bar Docker is accessible in any terminal.
+
+4.Now for some Docker commands to try out:
+
+     docker run, Runs a command in a new container
+
+     docker start, Starts one or more stopped containers
+
+     docker stop, Stops one or more containers 
+
+     docker build, Builds an image from a Docker file
+     
+     docker pull, Pulls an image or a repository from a registry 
+
+     docker push, Pushes an image or a repository to a registry 
+
+     docker export, Exports a container's filesystem as a tar archive
+
+     docker exec, Runs a command in a runtime container
+
+     docker search, Searches the Docker Hub for images 
+
+5. Why use Docker??? 
+Docker allows you to replicate  the environment on your server, while running the code locally on your computer.
+Allows for an easy test environment, for development phases. 
+
