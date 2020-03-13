@@ -31,7 +31,7 @@ Leave default selection<br>
 <br>Hardware tenancy
 Default<br>
 
-<br>Now we wait a while for the serrvice to boot up. Your done you can add more to your VPC as you see fit.  
+<br>Now we wait a while for the service to boot up. You're done with the start up, you can add more to your VPC as you see fit.  
 </p>
 <p>
 Things that can go into a VPC the standard:<br>
