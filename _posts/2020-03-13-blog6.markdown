@@ -1,0 +1,45 @@
+---
+layout: "post"
+title: "blog6"
+---
+
+<p>This week im going to talk about VPCs in AWS. First of what is a VPC. VPC stands for Virtual Private Cloud it allows you to use Amazon resources in virtual network.</p>
+
+<p>
+1. First off is creating a VPC. Log-in to your AWS console. Click on VPC in the dashboard of services. If you already have you resources set-up you can select the Start VPC Wizard. If not select Get started creating a VPC. <br>
+2. Select the second option VPC with a Single Public Subnet. <br>
+Input the following into the wizard and click Create VPC.
+
+IP CIDR block
+10.0.0.0/16
+
+VPC name
+Create a Name for your VPC
+
+Public subnet
+10.0.0.0/24
+
+Availability Zone
+No Preference
+
+Subnet name
+ADS Subnet 1
+
+Enable DNS hostnames
+Leave default selection
+
+Hardware tenancy
+Default
+
+Now we wait a while for the serrvice to boot up. 
+</p>
+
+![image-title-here](\Users\Kishitani\Downloads\VPC.png){:class="img-responsive"}
+
+
+
+
+
+
+
+
