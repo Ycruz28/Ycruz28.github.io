@@ -46,6 +46,7 @@ Using a VPC provides you with complete control of your virtual network, includin
 </p>
 
 <img src="/assets/images/VPC.png" alt="Sorry" style="width:1070px;height:818px;">
+<img src="/assets/images/vpc comp.jpg" alt="Sorry" style="width:1070px;height:818px;">
 
 
 
