@@ -3,7 +3,7 @@ layout: "post"
 title: "blog6"
 ---
 
-<p>This week im going to talk about VPCs in AWS. First of what is a VPC. VPC stands for Virtual Private Cloud it allows you to use Amazon resources in virtual network.</p>
+<p>This week im going to talk about VPCs in AWS. First of what is a VPC. VPC stands for Virtual Private Cloud is a virtual data center in the cloud, it allows you to use Amazon resources in virtual network.</p>
 
 <p>
 1. First off is creating a VPC. Log-in to your AWS console. Click on VPC in the dashboard of services. If you already have you resources set-up you can select the Start VPC Wizard. If not select Get started creating a VPC. <br>
@@ -31,7 +31,18 @@ Leave default selection<br>
 <br>Hardware tenancy
 Default<br>
 
-Now we wait a while for the serrvice to boot up. 
+<br>Now we wait a while for the serrvice to boot up. Your done you can add more to your VPC as you see fit.  
+</p>
+<p>
+Things that can go into a VPC the standard:<br>
+1. Subnets: Divides a network into parts makes it easier to manage and keep secure. <br>
+2. Route Tables: The table has rules that define where traffic is allowed, routes and directs them where they need to go.<br>
+3. Internet Gateways: It is a combination of hardware and software that provides your private networks with a route to the world outside.<br>
+4. Network Address Translation (NAT): Since subnet is private, the IP addresses assigned to the instances cannot be used in public. NAT maps the private IP addresses to the public address on the way out and vice versa on the way in.<br>
+5. Security groups: Security groups are a set of firewall rules that controls the traffic for your instance.<br>
+</p>
+<p>
+Using a VPC provides you with complete control of your virtual network, including configuration of network gateways and route tables, and the ability to select your IP range. The benefit of VPC is that it helps with privacy, security and preventing loss of proprietary data when using the cloud.
 </p>
 
 <img src="/assets/images/VPC.png" alt="Sorry" style="width:1070px;height:818px;">
