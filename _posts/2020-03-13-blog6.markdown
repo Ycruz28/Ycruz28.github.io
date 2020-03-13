@@ -8,33 +8,33 @@ title: "blog6"
 <p>
 1. First off is creating a VPC. Log-in to your AWS console. Click on VPC in the dashboard of services. If you already have you resources set-up you can select the Start VPC Wizard. If not select Get started creating a VPC. <br>
 2. Select the second option VPC with a Single Public Subnet. <br>
-Input the following into the wizard and click Create VPC.
+Input the following into the wizard and click Create VPC.<br>
 
-IP CIDR block
-10.0.0.0/16
+<br>IP CIDR block
+10.0.0.0/16<br>
 
-VPC name
-Create a Name for your VPC
+<br>VPC name
+Create a Name for your VPC<br>
 
-Public subnet
-10.0.0.0/24
+<br>Public subnet
+10.0.0.0/24<br>
 
-Availability Zone
-No Preference
+<br>Availability Zone
+No Preference<br>
 
-Subnet name
-ADS Subnet 1
+<br>Subnet name
+Your Subnet <br>
 
-Enable DNS hostnames
-Leave default selection
+<br>Enable DNS hostnames
+Leave default selection<br>
 
-Hardware tenancy
-Default
+<br>Hardware tenancy
+Default<br>
 
 Now we wait a while for the serrvice to boot up. 
 </p>
 
-![image-title-here](\Users\Kishitani\Downloads\VPC.png){:class="img-responsive"}
+<img src="/assets/images/VPC.png" alt="Sorry" style="width:1070px;height:818px;">
 
 
 
